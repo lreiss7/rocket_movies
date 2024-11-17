@@ -1,5 +1,5 @@
-import { Container } from './styles';
 import PropTypes from 'prop-types';
+import { Container } from './styles';
 
 export function Button({ title, loading = false, ...rest }) {
   return (
@@ -15,9 +15,5 @@ export function Button({ title, loading = false, ...rest }) {
 
 Button.propTypes = {
   title: PropTypes.string.isRequired,
-  loading: PropTypes.bool, 
-};
-
-Button.defaultProps = {
-  loading: false, 
+  loading: PropTypes.bool,
 };

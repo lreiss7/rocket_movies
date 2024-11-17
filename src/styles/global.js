@@ -7,6 +7,14 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :root {
+    --base-font-size: 62.5%;
+  }
+  
+  html {
+    font-size: var(--base-font-size);
+  }
+
   body {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.WHITE};
