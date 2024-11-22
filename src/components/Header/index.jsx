@@ -1,18 +1,29 @@
 import { Container, Profile } from './styles';
+import { ButtonText } from '../../components/ButtonText';
 
 export function Header() {
   return (
     <Container>
       <Profile>
-        <div>
-          <strong>Luan Reis</strong>
-          <span>Sair</span>
-        </div>
+        <h1>
+          RocketMovies
+        </h1>
 
-        <img 
-          src="https://github.com/lreiss7.png" 
-          alt="Imagem do usuário." 
-        />
+        <input placeholder="Pesquisar pelo título"></input>
+    
+        <aside>
+          <div className="user-profile">
+            <strong>Luan Reis</strong>
+
+            <ButtonText title="sair"/>
+          </div>
+          <img 
+            src="https://github.com/lreiss7.png" 
+            alt="Imagem do usuário." 
+          />
+        </aside>
+
+
       </Profile>
     </Container>
   );

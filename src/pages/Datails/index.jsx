@@ -1,9 +1,9 @@
-import { Container, Links } from './styles';
+import { Container, Content } from './styles';
 
-import { Tag } from '../../components/Tag';
+// import { Tag } from '../../components/Tag';
 import { Header } from '../../components/Header';
-import { Button } from '../../components/Button';
-import { Section } from '../../components/Section';
+// import { Button } from '../../components/Button';
+// import { Section } from '../../components/Section';
 import { ButtonText } from '../../components/ButtonText';
 // import { Input } from '../../components/Input';
 
@@ -13,18 +13,22 @@ export function Details(){
     <Container>
       <Header/>
 
-      <ButtonText title="Voltar"/>
+      <main>
+        <Content> 
+          <ButtonText title="Voltar" /> 
+          
+          <h1>
+            Meus Filmes
+          </h1>
 
-      <Section title="Marcadores">
-        <Links>
-          <li><a href="#">www.rocketmovies.com.br</a></li>
-        </Links>
-        <Tag title="Ação" />
-        
 
-      </Section>
+          <h2>
+            teste
+          </h2>
+        </Content>
 
-      <Button title="Entrar" /> 
+
+      </main>
     </Container>
   )
 
