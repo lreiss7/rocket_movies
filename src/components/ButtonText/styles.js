@@ -5,5 +5,10 @@ export const Container = styled.button`
   color: ${({ theme }) => theme.COLORS.ROSE};
 
   border: none;
-  font-size: 1.6rem;
+  font-size: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
 `;

@@ -9,7 +9,13 @@ export const Container = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: fixed; /* Fixar o header no topo */
+  top: 0;
+  left: 0;
+  z-index: 10;
   
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -32,7 +38,7 @@ export const Profile = styled.div`
     font-size: 2.5rem;
     font-weight: 700;
     color: ${({ theme }) => theme.COLORS.ROSE};
-    margin-right: 1.2rem;
+    margin-right: 1.4rem;
     text-align: right;
   }
 
@@ -43,7 +49,7 @@ export const Profile = styled.div`
     border-radius: 5px;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500};
     color: ${({ theme }) => theme.COLORS.WHITE};
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     margin-right: 1.2rem;
     transition: background-color 0.3s ease;
   }
@@ -80,6 +86,9 @@ export const Profile = styled.div`
   
       button { 
         font-size: 1rem;
+        > svg {
+          display: none;
+        }
       }
     };
 
