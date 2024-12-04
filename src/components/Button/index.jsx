@@ -1,14 +1,17 @@
-import PropTypes from 'prop-types';
-import { Container } from './styles';
+import PropTypes from "prop-types";
+import { Container } from "./styles";
 
-export function Button({ title, loading = false, ...rest }) {
+export function Button({ title, loading = false, children, ...rest }) {
   return (
-    <Container 
-      type="button"
-      disabled={loading}
-      {...rest}
-    >
-      { loading ? 'Carregando...' : title }
+    <Container type="button" disabled={loading} {...rest}>
+      {loading ? (
+        "Carregando..."
+      ) : (
+        <>
+          {children && <span>{children}</span>} {/* Renderiza o ícone */}
+          {title}
+        </>
+      )}
     </Container>
   );
 }

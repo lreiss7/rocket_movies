@@ -35,7 +35,7 @@ export const Profile = styled.div`
   
   
   >h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: ${({ theme }) => theme.COLORS.ROSE};
     margin-right: 1.4rem;

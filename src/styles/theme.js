@@ -3,12 +3,12 @@ export default {
     BACKGROUND_900: "#1C1B1E",
     BACKGROUND_800: "#312E38",
     BACKGROUND_700: "#4A4A4A",
-
-    BACKGROUND_500: "#262529",
     
+    BACKGROUND_500: "#262529",
 
     WHITE: "#F4EDE8",
     ROSE: "#FF859B",
+    ROSE_100: "#FC8DA1",
 
     GRAY_100: "#CAC4CF",
     GRAY_300: "#999591",
