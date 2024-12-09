@@ -4,8 +4,7 @@ export const Container = styled.section`
   margin: 2.5rem 0 1.5rem;
 
   >h2 {
-    padding-top: 1.6rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.5rem;
 
     color: ${({ theme }) => theme.COLORS.GRAY_300}; 
     font-size: 1.25rem;

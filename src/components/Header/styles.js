@@ -10,7 +10,7 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
 
-  position: fixed; /* Fixar o header no topo */
+  position: fixed; 
   top: 0;
   left: 0;
   z-index: 10;

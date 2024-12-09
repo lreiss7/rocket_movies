@@ -8,12 +8,14 @@ export default {
 
     WHITE: "#F4EDE8",
     ROSE: "#FF859B",
-    ROSE_100: "#FC8DA1",
+    ROSE_100: "#ff9cae",
 
     GRAY_100: "#CAC4CF",
     GRAY_300: "#999591",
     GRAY_500: "#948F99",
 
-    BLACK: "#1C1B1E"
+    BLACK: "#1C1B1E",
+    BLACK_100: "#0D0C0F",
+    BLACK_200: "#131216"
   }
 }
