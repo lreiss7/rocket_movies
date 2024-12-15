@@ -5,30 +5,33 @@ export const Container = styled.div`
   height: 3.5rem;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 
-  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500 }; 
+  padding: 1.5rem;
+
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500}; 
   color: ${({ theme }) => theme.COLORS.GRAY_300};
 
-  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
 
   > input {
     width: 100%;
-
+  
     font-size: 1rem;
 
-    padding: 1.5rem;
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
     border: 0;
 
-    &:placeholder {
+    &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
-
-    > svg {
-      margin-left: 1.6rem;
-    }
-
   }
 
+  > svg {
+    width: 1.25rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+  }
 `;
