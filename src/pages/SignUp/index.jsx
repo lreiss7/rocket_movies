@@ -5,6 +5,7 @@ import { Button } from '../../components/Button';
 import { ButtonText } from '../../components/ButtonText';
 
 import { FiUser, FiMail, FiLock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 export function SignUp(){
   return (

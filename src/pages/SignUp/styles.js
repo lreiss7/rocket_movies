@@ -47,13 +47,12 @@ export const Form = styled.form`
     height: 3.5rem;
     
     font-size: 1rem;
-
     margin-top: 1.5rem;
   }
 
   > a {
     margin-top: 2.65rem;
-
+   
     font-size: 1rem;
     color: ${({ theme }) => theme.COLORS.ROSE}; 
   }
